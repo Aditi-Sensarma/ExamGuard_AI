@@ -1,0 +1,133 @@
+
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #05071a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 20px 60px;
+  border-bottom: 1px solid #1e2552;
+}
+
+.logo {
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.logo span { color: #b8a6ff; }
+main {
+  max-width: 460px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.login-box {
+  background: #0b1030;
+  border: 1px solid #1e2552;
+  border-radius: 12px;
+  padding: 40px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.login-box h1 {
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.note {
+  color: #8d92b8;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 14px;
+  background: white;
+  color: #202124;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.google-btn:hover { background: #e8e8e8; }
+
+.error {
+  color: #ff4d7a;
+  font-size: 14px;
+  margin-top: 18px;
+}
+
+.small-note {
+  color: #8d92b8;
+  font-size: 12px;
+  margin-top: 25px;
+}
+
+@media (max-width: 500px) {
+  header { padding: 20px; }
+  .login-box { padding: 25px; margin-top: 30px; }
+}
+
+#step2 { display: none; }
+
+.step {
+  color: #b8a6ff;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.demo-sms {
+  background: #05071a;
+  border: 1px dashed #2a3170;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 13px;
+  color: #8d92b8;
+  margin-bottom: 25px;
+}
+
+.demo-sms b { color: white; letter-spacing: 2px; }
+
+#codeBox {
+  width: 100%;
+  padding: 14px;
+  background: #05071a;
+  border: 1px solid #2a3170;
+  border-radius: 8px;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: 10px;
+  margin-bottom: 15px;
+}
+
+#codeBox:focus { outline: none; border-color: #7c5cff; }
+
+#step2 button {
+  width: 100%;
+  padding: 14px;
+  background: #7c5cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#step2 button:hover { background: #6a4ae6; }
+
+.ok { color: #3ddc97; font-size: 14px; margin-top: 18px; }
+
+.small-note a { color: #b8a6ff; }
